@@ -17,6 +17,10 @@ picture {
   margin: 0;
 }
 
+figure {
+  border: 2px solid black;
+}
+
 body {
   line-height: 1.5;
   min-height: 100vh;
@@ -37,10 +41,7 @@ picture {
   display: block;
 }
 
-input,
-button,
-textarea,
-select {
+button {
   font: inherit;
 }
 
@@ -55,6 +56,7 @@ select {
   }
 }
 
+/* Marca las instrucciones para poder modificar la navegación */
 /* Base */
 
 /* Layout */
